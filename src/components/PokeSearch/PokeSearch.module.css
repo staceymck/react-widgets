@@ -1,0 +1,66 @@
+.container {
+  background: #A897FC;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.field {
+  padding-top: .75rem;
+}
+
+.label {
+  padding-right: .5rem;
+}
+
+.input {
+  padding: .3rem;
+  border-radius: 4px;
+  border: 1px solid lightgray;
+  font-size: 1rem;
+}
+
+.attributeName {
+  padding-right: .25rem;
+  font-weight: bold;
+}
+
+.resultsBlock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.sprite {
+  max-width: 100%;
+}
+
+.alertMessage {
+  background: #CCC2FC;
+  padding: 1rem;
+  max-width: 20%;
+  margin: 1rem auto;
+  border-radius: 8px;
+  font: 1rem;
+}
+
+.shine {
+  margin-left: 1rem;
+  padding: .5rem;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.search {
+  border-radius: 50%;
+  padding: .5rem;
+  border: 1px solid gray;
+  background: #725FCE;
+  color: #fff;
+  font-weight: bold;
+  margin-left: .5rem;
+  cursor: pointer;
+}
