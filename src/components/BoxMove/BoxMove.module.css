@@ -1,0 +1,23 @@
+.container {
+  background-color: #97FCDB;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background: #3CB089;
+}
+
+.goal {
+  width: 48px;
+  height: 48px;
+  transform: translate(300px);
+  border: 2px solid #3CB089;
+  color: #3CB089;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
