@@ -1,0 +1,9 @@
+.container {
+  background: #FC97B9;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.container h2 {
+  font-size: 1.25rem;
+}
