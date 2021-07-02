@@ -4,54 +4,9 @@ import styles from './PokeSearch.module.css';
 export default function PokeSearch() {
 
   const [term, setTerm] = useState('');
-  // const [debouncedTerm, setDebouncedTerm] = useState(term);
   const [pokemon, setPokemon] = useState(null);
   const [message, setMessage] = useState('');
   const [activeSprite, setActiveSprite] = useState("front_default");
-
-  // useEffect(() => {
-  //   const timerId = setTimeout(() => {
-  //     setDebouncedTerm(term.toLowerCase())
-  //   }, 1000)
-
-  //   return () => {
-  //     clearTimeout(timerId);
-  //   }
-  // }, [term])
-
-  //clear any alert/error messages with each new search
-  // useEffect(() => {
-  //   setMessage('')
-  // }, [term, debouncedTerm, pokemon])
-
-
-  // useEffect(() => {
-  //   if (term) {
-  //     const apiUrl = `https://pokeapi.co/api/v2/pokemon/${term}`
-  //     const getPoke = () => {
-  //       fetch(apiUrl)
-  //       .then(res => {
-  //         if (res.status === 404) {
-  //           setMessage("No results")
-  //         } else if (!res.ok) {
-  //           const msg = `${res.status}: ${res.statusText}`
-  //           throw new Error(msg)
-  //         } else {
-  //           return res.json()
-  //         }
-          
-  //       })
-  //       .then(data => {
-  //         setActiveSprite("front_default")
-  //         setPokemon(data)
-  //       })
-  //       .catch(error => setMessage(error.message))
-  //     }
-  //     getPoke()
-  //     console.log(pokemon)
-  //   }
-
-  // }, [term])
 
   const capitalize = word => {
     return word[0].toUpperCase() + word.slice(1)
